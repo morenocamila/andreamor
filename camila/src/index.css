@@ -1,0 +1,105 @@
+/* App.css */
+
+.navbar {
+    background-color: #beb8b8;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #98ac92;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    margin: 20px;
+}
+
+.participants {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.participant {
+    flex: 1 1 30%;
+}
+
+.participant img {
+    width: 100%;
+    height: auto;
+}
+
+.medal-table {
+    margin: 20px;
+    text-align: center;
+}
+
+.medal-table table {
+    width: 80%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+
+.medal-table th,
+.medal-table td {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.medal-table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.medal-table td {
+    background-color: #fff;
+}
+
+.medal-table img {
+    border-radius: 10px;
+    width: 100px;
+    /* Ajusta el tamaño de las medallas */
+    height: auto;
+}
+
+.medal-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.medal-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.participant img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.participant {
+    border-color: rgb(185, 221, 101);
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    padding-top: 15;
+}
